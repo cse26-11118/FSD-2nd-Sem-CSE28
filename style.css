@@ -1,23 +1,39 @@
-body {
-    background-color: lightblue;
-    text-decoration: dashed;
-}
-h1 {
-    color: darkblue;
+body{
+    font-family: Arial, sans-serif;
     text-align: center;
-    font-family: 'Arial', sans-serif;
-    font-size: 50px;
+    margin-top: 50px;
 }
-p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: blueviolet;
+
+.container{
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-a {
-    color: red;
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
 }
-h2 {
-    color: green;
-    text-align:left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+button{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+#result{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
 }
